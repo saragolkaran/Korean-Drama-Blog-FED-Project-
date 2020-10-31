@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* 
+My Personal Blog
+FED Project
+
+Layout Sheet of my reference webpage
+
+Author: Sara Golkaran
+Date: 31th May 2019
+
+Filename: ref.css
+
+*/
+
+/* Layout for references section */
+
+section#ref {
+    border-style: solid;
+    border-color: rgb(255, 192, 203);
+    background-color: rgb(240, 248, 255);
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+section#ref1 {
+    border-style: solid;
+    border-color: rgb(255, 192, 203);
+    background-color: rgb(240, 248, 255);
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+section#ref2 {
+    border-style: solid;
+    border-color: rgb(255, 192, 203);
+    background-color: rgb(240, 248, 255);
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Handlee', cursive;
+}

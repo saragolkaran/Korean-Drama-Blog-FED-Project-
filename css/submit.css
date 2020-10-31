@@ -1,0 +1,22 @@
+  
+  p {
+    font-family: 'Handlee', cursive;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Handlee', cursive;
+    text-align: center;
+  }
+  
+  section#submit {
+    border-style: solid;
+    border-color: pink;
+    background: aliceblue;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 85px;
+    font-family: 'Handlee', cursive;
+  }
+  
+  

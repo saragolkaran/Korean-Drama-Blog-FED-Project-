@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* 
+My Personal Blog
+FED Project
+
+Layout Sheet of my drama webpage
+
+Author: Sara Golkaran
+Date: 17th May 2019
+
+Filename: form.css
+
+*/
+
+
+/*feedback form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 5px solid rgb(255, 204, 212);
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Handlee', cursive;
+}
+
+input[type=submit] {
+  background-color: rgb(135, 206, 250);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255, 204, 212);
+}
+
+.form {
+  padding: 25px;
+  font-family: 'Handlee', cursive;
+}
+
+
+h2 {
+  font-family: 'Handlee', cursive;
+  text-align: center;
+}
+
+
+p {
+  font-family: 'Handlee', cursive;
+  /* text-align: center; */
+}
+
+  

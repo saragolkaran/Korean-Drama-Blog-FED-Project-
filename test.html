@@ -1,0 +1,168 @@
+<!--
+    
+   Korean Drama Blog Webpage
+    Author: Sara Golkaran
+    Date:   26 July 2019
+
+    Filename: test.html
+   -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Korean Drama Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--bootstraps-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/act.css">
+  <link rel="stylesheet" href="css/test.css">
+
+  <!--google fonts-->
+  <link rel=" stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee&display=swap">
+
+  <!--scripts-->
+  <script src="javascript/test.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<!--body-->
+
+<body>
+  <!--headder-->
+  <header>
+
+    <div class="top">
+      <figure>
+        <img id="logoPic" src="images/websitelogo1.png" alt="Korean Drama Blog" /></id>
+      </figure>
+      <h1> Korean Drama Blog</h1>
+    </div>
+    <!--top-->
+
+    <!--Navigation Bars-->
+    <nav class="navbar navbar-expand-lg navbar-dark purple lighten-4">
+      <a class="navbar-brand" href="index.html">Korean Drama Blog <i class="fas fa-thumbs-up"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="drama.html">Drama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="actorsactresses.html">Actors/Actresses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ref.html">Referenes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <h2>Photo Gallery on Celebrities<i class="fas fa-heart"></i></h2>
+  <p>Here are some of my favourite celebrities images! Please enjoy these slideshows! Maybe your favourite celebrities
+    images can be found here as well</p>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+
+      <img src="images/yooseungho2.png" class="slidePhoto">
+      <div class="text">Yoo Seung Ho</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="images/parkminyoung1.png " class="slidePhoto">
+      <div class="text">Park Min Young</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="images/namdareum1.png" class="slidePhoto">
+      <div class="text">Nam Da Reum</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="images/parkboyoung1.png" class="slidePhoto">
+      <div class="text">Park Bo Young</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="images/parkbogum1.png" class="slidePhoto">
+      <div class="text">Park Bo Gum</div>
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+
+  </div>
+
+  <!--footer-->
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-80">
+    <div class="container text-center">
+      <p>Sara's Personal Blog on Korean Drama &copy; 2019</p>
+      <p>Follow me on my Instagram! <a href="https://www.instagram.com/sweetiesara_yooseungho/">
+          <i class="fab fa-instagram"></i></a></p>
+    </div>
+    <!--container-->
+  </footer>
+  <!--footer-->
+</body>
+<!--body-->
+
+</html>
+<!--html-->

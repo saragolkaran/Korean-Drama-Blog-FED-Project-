@@ -1,0 +1,107 @@
+<!--
+    
+   Korean Drama Blog Webpage
+    Author: Sara Golkaran
+    Date:   26 July 2019
+
+    Filename: form.html
+   -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Korean Drama Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--bootstraps-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/form.css">
+    <!--google fotns-->
+    <link rel=" stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee&display=swap">
+
+    <!--scripts-->
+    <script src="javascript/form.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+<!--body-->
+
+<body>
+    <!--header-->
+    <header>
+        <div class="top">
+            <figure>
+                <img id="logoPic" src="images/websitelogo1.png" alt="Korean Drama Blog" /></id>
+            </figure>
+            <h1> Korean Drama Blog</h1>
+        </div>
+        <!--top-->
+
+    </header>
+    <h2>Write your feedbacks!</h2>
+    <p class="text-center">Please write down some feedbacks on the comment section below1 Please let me know if my
+        webiste needs
+        any improvement and is there any drama synopsis that you are willing to find out! I will definitely
+        improve on my webistes!
+    </p>
+    <p class="text-center">Click <a href="index.html">here</a> here to go back to home page!</p>
+    <div class="container-fluid">
+        <form id="check-out-form">
+            <div class="form-group">
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" class="form-control-lg" id="fname" name="firstname" placeholder="Jack">
+            </div>
+            <div class="form-group">
+                <label for="age">Age*</label>
+                <select id="age" name="age">
+                    <option value="12-19">12-19</option>
+                    <option value="20-30">20-30</option>
+                    <option value="above 30">Above 30</option>
+                </select>
+            </div>
+
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" class="form-control-lg" id="email" name="email" placeholder="jack@example.com">
+
+            <label for="subject">Please write some comments here! Please do let me know if there are any improvements to
+                be made.<i class="far fa-comment"></i></label>
+            <textarea id="subject" class="form-control-lg" name="subject" placeholder="Write some comments.."
+                style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" class="btn">
+
+        </form>
+    </div>
+    <!--container-->
+
+    <!--footer-->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-80">
+        <div class="container text-center">
+            <p>Sara's Personal Blog on Korean Drama &copy; 2019</p>
+            <p>Follow me on my Instagram! <a href="https://www.instagram.com/sweetiesara_yooseungho/">
+                    <i class="fab fa-instagram"></i></a></p>
+        </div>
+        <!--container-->
+    </footer>
+    <!--footer-->
+</body>
+
+</html>

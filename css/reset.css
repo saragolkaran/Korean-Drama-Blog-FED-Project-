@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* 
+My Personal Blog
+FED Project
+
+Reset stylesheet of Korean Drama Blog Website
+
+Author: Sara Golkaran
+Date: 29th May 2019
+
+Filename: reset.css
+
+*/
+
+/* Layout for html */
+
+html {
+    background-image: url("../images/backgroundimage2.png");
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    height: auto;
+    min-width: 600px;
+    width: 95%;
+    background-color: rgb(255, 219, 153);
+    box-shadow: rgb(255, 128, 255) 15px 0px 25px, rgb(255, 128, 255) -15px 0px 25px;
+}
+
+/* Layout of header and the effect of the title */
+
+header {
+    font-size: 30px;
+}
+
+.top {
+    font-size: 30px;
+    background-color: rgb(224, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Shadows Into Light', cursive;
+    width: 100%;
+    color: rgb(255, 0, 255);
+    text-shadow: rgb(255, 128, 255) 15px 0px 25px, rgb(255, 128, 255) -15px 0px 25px;
+}
+
+
+li a {
+    font-size: 0.65em;
+    font-family: 'Handlee', cursive;
+}
+
+a:hover {
+    background-color: rgb(255, 102, 255)
+}
+
+/*fonts*/
+
+p{
+    font-family: 'Handlee', cursive;
+
+}
+h2{
+    font-family: 'Handlee', cursive;
+}
+
+h3 {
+    font-family: 'Handlee', cursive;
+}
+
+h4{
+    font-family: 'Handlee', cursive;   
+}
+
+h5{
+    font-family: 'Handlee', cursive;
+}
+
+/*table font*/
+.table {
+    font-family: 'Handlee', cursive;
+}
+
+
+/* The texts in all the webpages */
+section#text{
+    font-family: 'Handlee', cursive;
+    border-style: solid;
+    border-color: rgb(255, 192, 203);
+    border-radius: 14px;
+    background-color: rgb(240, 248, 255);
+    margin: 10px;
+
+}
+
+section#feelingText{
+    font-family: 'Handlee', cursive;
+    border-style: solid;
+    border-color: rgb(221, 160, 221);
+    border-radius: 14px;
+    background-color: rgb(240, 248, 255);
+    margin: 10px;
+}
+
+section#leftColumn {
+    border-style: solid;
+    border-color: pink;
+    background: aliceblue;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 85px;
+    font-family: 'Handlee', cursive;
+}
+
+/* Colour of footer */
+footer { 
+    background: linear-gradient(to top, #33ccff 1%, #ff99cc 100%);
+} 
